@@ -22,7 +22,7 @@ def send_mail():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('noahdabalboa@gmail.com', 'xlnntxentdqrmyll')
+    server.login('<Your Email here>', '<your server password here>')
 
     subject = 'Price is down!'
     body = 'Check the link to buy: https://www.grailed.com/listings/13116372-fog-x-fear-of-god-x-pacsun-fear-of-god-essentials-graphic-mesh-drawstring-shorts-sz-s '
